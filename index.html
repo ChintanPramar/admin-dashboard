@@ -11,24 +11,25 @@
     <header>
       <div id="first-row-header">
         <div class="searche-container">
-          <span class="searche-logo">
-            <img src="assets/svgs/search_svg.svg" alt="search_svg" />
-          </span>
+          <img
+            src="assets/svgs/search_svg.svg"
+            alt="search_svg"
+            class="searche-logo"
+          />
           <span class="searche-box light-text">Searche here...</span>
         </div>
         <div class="bell-profile-name">
-          <span class="bell-icon">
-            <img
-              src="assets/svgs/notifications_active_svg.svg"
-              alt="notifications_active_svg"
-            />
-          </span>
+          <img
+            src="assets/svgs/notifications_active_svg.svg"
+            alt="notifications_active_svg"
+            class="bell-icon"
+          />
           <img
             class="profile-icon"
             src="assets/svgs/account_circle_svg.svg"
             alt="accountLogo"
           />
-          <span class="profile-name">Chintan Parmar</span>
+          <span class="md bold">Chintan Parmar</span>
         </div>
       </div>
       <div id="last-row-header">
@@ -39,7 +40,7 @@
             alt="accountLogo"
           />
           <div class="profile-info">
-            <p class="small-bold">Hi there,</p>
+            <p class="sm">Hi there,</p>
             <p class="profile-name lg">Parmar Chintan (@chintan)</p>
           </div>
         </div>
@@ -52,23 +53,42 @@
     </header>
     <aside id="sidebar">
       <div id="menu-logo">
-        <span class="menu">
-          <img src="assets/svgs/menu_svg.svg" alt="menu-svg" />
-        </span>
-        <span class="font-logo"> Dashboard </span>
+        <img src="assets/svgs/menu_svg.svg" alt="menu-svg" class="menu-svg" />
+        <span class="lg bold"> Dashboard </span>
       </div>
       <ul id="external">
-        <li>Home</li>
-        <li>Profile</li>
-        <li>Messages</li>
-        <li>History</li>
-        <li>Tasks</li>
-        <li>Communities</li>
+        <li class="md">
+          <img src="assets/svgs/home_svg.svg" alt="home_svg" /> Home
+        </li>
+        <li class="md">
+          <img
+            src="assets/svgs/profile_icon_svg.svg"
+            alt="profile_svg"
+          />Profile
+        </li>
+        <li class="md">
+          <img src="assets/svgs/message_svg.svg" alt="message_svg" />Messages
+        </li>
+        <li class="md">
+          <img src="assets/svgs/history_svg.svg" alt="history_svg" />History
+        </li>
+        <li class="md">
+          <img src="assets/svgs/task_svg.svg" alt="task_svg" />Tasks
+        </li>
+        <li class="md">
+          <img src="assets/svgs/groups_svg.svg" alt="group_svg" />Communities
+        </li>
       </ul>
       <ul id="default">
-        <li>Settings</li>
-        <li>Support</li>
-        <li>Privacy</li>
+        <li class="md">
+          <img src="assets/svgs/settings_svg.svg" alt="setting_svg" />Settings
+        </li>
+        <li class="md">
+          <img src="assets/svgs/support_svg.svg" alt="support_svg" />Support
+        </li>
+        <li class="md">
+          <img src="assets/svgs/privacy_svg.svg" alt="privacy_svg" />Privacy
+        </li>
       </ul>
     </aside>
     <main>
@@ -109,7 +129,7 @@
             <div class="card-body">
               <div class="card-text">
                 <span class="bold md">Super Cool Projects</span>
-                <p class="light-text">
+                <p class="light-text sm">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde,
                   itaque! Aspernatur cum enim hic sapiente?
                 </p>
@@ -253,81 +273,84 @@
       </div>
       <div class="announcement">
         <h2>Announcements</h2>
-        <div class="box">
-          <div class="box-text">
-            <span class="heading">Site Maintenance</span>
-            <span class="light-text"
-              >Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
-              nesciunt vitae enim!</span
-            >
+        <div class="box-container">
+          <div class="box">
+            <div class="box-text">
+              <span class="bold md">Site Maintenance</span>
+              <p class="light-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+                nesciunt vitae enim!
+              </p>
+            </div>
+            <hr />
           </div>
-          <hr />
-        </div>
-        <div class="box">
-          <div class="box-text">
-            <span class="heading">Site Maintenance</span>
-            <span class="light-text"
-              >Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
-              nesciunt vitae enim!</span
-            >
+          <div class="box">
+            <div class="box-text">
+              <span class="bold md">Site Maintenance</span>
+              <p class="light-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+                nesciunt vitae enim!
+              </p>
+            </div>
+            <hr />
           </div>
-          <hr />
-        </div>
-        <div class="box">
-          <div class="box-text">
-            <span class="heading">Site Maintenance</span>
-            <span class="light-text"
-              >Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
-              nesciunt vitae enim!</span
-            >
+          <div class="box">
+            <div class="box-text">
+              <span class="bold md">Site Maintenance</span>
+              <p class="light-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+                nesciunt vitae enim!
+              </p>
+            </div>
           </div>
-          <hr />
         </div>
       </div>
       <div class="trending">
         <h2>Trending</h2>
-        <div class="users">
-          <img
-            class="profile-icon"
-            src="assets/svgs/account_circle_svg.svg"
-            alt="accountLogo"
-          />
-          <div class="user-text">
-            <p class="small">@username</p>
-            <p class="small light-text">Lorem, ipsum dolor.</p>
+        <div class="user-container">
+          <div class="users">
+            <img
+              class="profile-icon"
+              src="assets/svgs/account_circle_svg.svg"
+              alt="accountLogo"
+            />
+            <div class="user-text">
+              <p class="small">@username</p>
+              <p class="small light-text">Lorem, ipsum dolor.</p>
+            </div>
           </div>
-        </div>
-        <div class="users">
-          <img
-            class="profile-icon"
-            src="assets/svgs/account_circle_svg.svg"
-            alt="accountLogo"
-          />
-          <div class="user-text">
-            <p class="small">@username</p>
-            <p class="small light-text">Lorem, ipsum dolor.</p>
+          <div class="users">
+            <img
+              class="profile-icon"
+              src="assets/svgs/account_circle_svg.svg"
+              alt="accountLogo"
+            />
+            <div class="user-text">
+              <p class="small">@username</p>
+              <p class="small light-text">Lorem, ipsum dolor.</p>
+            </div>
           </div>
-        </div>
-        <div class="users">
-          <img
-            class="profile-icon"
-            src="assets/svgs/account_circle_svg.svg"
-            alt="accountLogo"
-          />
-          <div class="user-text">
-            <p class="small">@username</p>
-            <p class="small light-text">Lorem, ipsum dolor.</p>
+          <div class="users">
+            <img
+              class="profile-icon"
+              src="assets/svgs/account_circle_svg.svg"
+              alt="accountLogo"
+            />
+            <div class="user-text">
+              <p class="small">@username</p>
+              <p class="small light-text">Lorem, ipsum dolor.</p>
+            </div>
           </div>
-        </div>
-        <div class="users">
-          <img
-            class="profile-icon"
-            src="assets/svgs/account_circle_svg.svg"
-            alt="accountLogo"
-          />
-          <div class="user-text">
-            <p class="small">@username</p>
-            <p class="small light-text">Lorem, ipsum dolor.</p>
+          <div class="users">
+            <img
+              class="profile-icon"
+              src="assets/svgs/account_circle_svg.svg"
+              alt="accountLogo"
+            />
+            <div class="user-text">
+              <p class="small">@username</p>
+              <p class="small light-text">Lorem, ipsum dolor.</p>
+            </div>
           </div>
         </div>
       </div>
